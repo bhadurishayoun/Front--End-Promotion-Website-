@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    text-color:white;
+    background-color: white;
+  }
+  
+  table {
+    border-collapse:collapse;    border: spacing 10px;;
+    width: 100%;
+    border: 2px solid black;
+    bo
+    font:white;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+   
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color:white;
+    
+  }
+  .submit{
+      max-width: 80%;
+      
+  }
+.printrates{
+    background-color:#00008B;
+    max-width:none;
+    
+}
+.contactus{
+    color: white;
+    max-width:none;
+    align-content: center;
+}
+img:hover{
+  font-size: 150%;
+  color: azure;
+}
+p{
+  text-decoration: underline;
+  font-style: oblique;
+  text-shadow: 2px 2px 8px black;
+}
+table{
+  text-emphasis-style:inherit;
+  box-shadow:black;
+}
+tr:nth-child(even):hover{
+  background-color: grey;
+}
+tr:nth-child(odd):hover{
+  background-color:rgb(84, 83, 83);
+}
+td{
+  border: 2px solid black;
+  text: shadow 2px 2px 8px black;
+}
+.footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:blue ;
+  color: white;
+  text-align: center;
+  text-shadow: 4px 4px 10px black;
+}
+.w3top{
+  position:fixed;
+  transition:0.2s;
+}
+.footer{
+  padding-bottom: 100px;
+}
+
+.container {
+  position: relative;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-block {
+  position:absolute;
+  top: 150px;
+  left: 20px;
+  background-color:#19366959;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 1;
+  font: 30px;px ;
+  text-shadow: 10px 10px 14px black;
+  font-style:italic;
+  text-align: justify;
+  font-display:inherit;
+  text-decoration: solid;
+ font: weight 2000px;
+ }
+ .cname{
+  position:absolute;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  text-align: center;
+  background-color:none;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 1;
+  font: 30px;
+  text-shadow: 10px 10px 14px black;
+
+ }
+
